@@ -41,14 +41,14 @@ export function About() {
               <Building2 className="mt-0.5 h-5 w-5 shrink-0 text-neon" />
               <div>
                 <p className="font-semibold">Sede</p>
-                <p className="text-sm text-muted-foreground">RB Rastreamento Veicular · CNPJ mockado</p>
+                <p className="text-sm text-muted-foreground">RB Rastreamento Veicular</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-neon" />
               <div>
                 <p className="font-semibold">Localização</p>
-                <p className="text-sm text-muted-foreground">Av. Exemplo, 1234 · Centro · Sua Cidade, BR</p>
+                <p className="text-sm text-muted-foreground">Belo Horizonte e Região Metropolitana · MG</p>
               </div>
             </li>
           </ul>

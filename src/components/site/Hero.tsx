@@ -25,7 +25,9 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a
-              href="#cta"
+              href="https://wa.me/5531983181380"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex h-12 items-center gap-2 rounded-full bg-neon px-6 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
             >
               Solicitar proposta

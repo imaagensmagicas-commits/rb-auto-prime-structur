@@ -35,7 +35,8 @@ export function Footer() {
             Contato
           </h4>
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (00) 0000-0000</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98318-1380</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98620-1766</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> contato@rbautotracker.com</li>
             <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Sua Cidade, BR</li>
           </ul>

@@ -27,7 +27,9 @@ export function Navbar() {
           ))}
         </ul>
         <a
-          href="#cta"
+          href="https://wa.me/5531983181380"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex h-9 items-center rounded-full bg-neon px-4 text-xs font-semibold text-neon-foreground transition-transform hover:scale-105"
         >
           Fale conosco
