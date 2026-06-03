@@ -28,30 +28,44 @@ export function About() {
             Sobre a empresa
           </span>
           <h2 className="mt-4 font-display text-3xl font-bold sm:text-4xl md:text-5xl">
-            Especialistas em <span className="neon-text">rastreamento veicular</span>
+            Sua segurança é a <span className="neon-text">nossa prioridade</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground sm:text-lg">
-            A RB Auto Tracker é referência em soluções de rastreamento e telemetria veicular,
-            oferecendo tecnologia de ponta com atendimento próximo e personalizado. Nosso
-            compromisso é levar mais segurança, controle e tranquilidade para você e seu veículo.
+            Fundada em 13 de setembro de 2018, a RB Tracker Rastreamento e Tecnologia consolidou-se no mercado de Belo Horizonte como sinônimo de excelência e inovação. 
+            Com sede na Savassi, combinamos anos de experiência com tecnologia GPS de última geração para oferecer proteção real ao seu patrimônio.
+          </p>
+          <p className="mt-4 text-base text-muted-foreground sm:text-lg">
+            Nosso compromisso vai além do rastreamento: entregamos tranquilidade através de um atendimento humanizado e suporte especializado 24 horas por dia. 
+            Utilizamos infraestrutura de ponta e sistemas robustos para garantir que você tenha o controle total do seu veículo na palma da mão.
           </p>
 
           <ul className="mt-8 space-y-4">
             <li className="flex items-start gap-3">
               <Building2 className="mt-0.5 h-5 w-5 shrink-0 text-neon" />
               <div>
-                <p className="font-semibold">Sede</p>
-                <p className="text-sm text-muted-foreground">RB Rastreamento Veicular</p>
+                <p className="font-semibold">RB Tracker Rastreamento e Tecnologia e Eventos Ltda</p>
+                <p className="text-sm text-muted-foreground">CNPJ: 31.495.657/0001-09</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-neon" />
               <div>
-                <p className="font-semibold">Localização</p>
-                <p className="text-sm text-muted-foreground">Belo Horizonte e Região Metropolitana · MG</p>
+                <p className="font-semibold">Localização Estratégica</p>
+                <p className="text-sm text-muted-foreground">Savassi, Belo Horizonte - MG</p>
               </div>
             </li>
           </ul>
+          
+          <div className="mt-10">
+            <a
+              href="https://wa.me/5531983181380"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center gap-2 rounded-full bg-neon px-8 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
+            >
+              Falar com nossa equipe
+            </a>
+          </div>
         </div>
       </div>
     </section>
