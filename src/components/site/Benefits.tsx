@@ -1,0 +1,29 @@
+import { MapPin, UserCheck, KeyRound, ShieldCheck } from "lucide-react";
+import { SectionHeading } from "./SectionHeading";
+import { FeatureCard } from "./FeatureCard";
+
+const benefits = [
+  { icon: MapPin, title: "Rastreamento em tempo real", description: "Acompanhe a localização exata do seu veículo 24 horas por dia, com precisão GPS." },
+  { icon: UserCheck, title: "Identificação de motorista", description: "Saiba quem está conduzindo o veículo em cada trajeto, com histórico completo." },
+  { icon: KeyRound, title: "Tag chaveiro para desbloqueio", description: "Liberação inteligente do veículo apenas com a tag autorizada presente." },
+  { icon: ShieldCheck, title: "Mais segurança para o veículo", description: "Bloqueio remoto, alertas e proteção antifurto para você dirigir tranquilo." },
+];
+
+export function Benefits() {
+  return (
+    <section id="beneficios" className="relative py-20 sm:py-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <SectionHeading
+          eyebrow="Benefícios"
+          title="Proteção inteligente em cada detalhe"
+          description="Tudo o que você precisa para manter o controle total do seu veículo."
+        />
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {benefits.map((b) => (
+            <FeatureCard key={b.title} {...b} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
