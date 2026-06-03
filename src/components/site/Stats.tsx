@@ -35,7 +35,7 @@ export function Stats() {
           {stats.map((stat, idx) => (
             <div 
               key={idx} 
-              className="flex flex-col items-center text-center animate-in fade-in slide-in-from-bottom-4 duration-700"
+              className="flex flex-col items-center text-center opacity-0 animate-fade-up"
               style={{ animationDelay: `${idx * 150}ms`, animationFillMode: 'both' }}
             >
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-neon/10 text-neon">
