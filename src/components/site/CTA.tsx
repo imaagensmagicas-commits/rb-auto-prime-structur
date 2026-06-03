@@ -21,14 +21,18 @@ export function CTA() {
             </div>
             <div className="flex flex-col gap-3">
               <a
-                href="#"
+                href="https://wa.me/5531983181380"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-neon px-6 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
               >
                 Solicitar proposta
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/5531986201766"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-border px-6 text-sm font-semibold hover:border-neon/60 hover:text-neon"
               >
                 <Phone className="h-4 w-4" />
