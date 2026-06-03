@@ -11,14 +11,15 @@ const items = [
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className="relative py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section id="diferenciais" className="relative py-28 sm:py-36 overflow-hidden">
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-neon/5 blur-[120px] pointer-events-none" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
         <SectionHeading
           eyebrow="Diferenciais"
           title="Por que escolher a RB Auto Tracker"
-          description="Tecnologia, suporte e confiança que fazem a diferença na sua proteção."
+          description="Tecnologia, suporte e confiança que fazem a diferença na sua proteção com soluções de última geração."
         />
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 animate-fade-up">
           {items.map((b) => (
             <FeatureCard key={b.title} {...b} />
           ))}
