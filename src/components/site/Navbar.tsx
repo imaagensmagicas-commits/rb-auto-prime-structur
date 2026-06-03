@@ -12,7 +12,7 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/40 bg-background/70 backdrop-blur-xl">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logo} alt="RB Rastreamento" className="h-9 w-9 rounded-full bg-white/95 p-0.5" />
+          <img src={logo} alt="RB Rastreamento" className="h-9 w-9 rounded-full bg-white/95 p-0.5" loading="lazy" />
           <span className="font-display text-sm font-bold tracking-wide text-foreground sm:text-base">
             RB <span className="text-neon">Auto Tracker</span>
           </span>
