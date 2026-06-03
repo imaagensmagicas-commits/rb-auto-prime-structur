@@ -6,6 +6,7 @@ import { Stats } from "@/components/site/Stats";
 import { HowItWorks } from "@/components/site/HowItWorks";
 import { Differentials } from "@/components/site/Differentials";
 import { About } from "@/components/site/About";
+import { FAQ } from "@/components/site/FAQ";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
@@ -24,6 +25,7 @@ function Index() {
         <HowItWorks />
         <Differentials />
         <About />
+        <FAQ />
         <CTA />
       </main>
       <Footer />
