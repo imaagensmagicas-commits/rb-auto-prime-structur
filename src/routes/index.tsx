@@ -9,14 +9,6 @@ import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "RB Auto Tracker — Rastreamento Veicular Premium" },
-      { name: "description", content: "Rastreamento veicular com GPS em tempo real, identificação de motorista, tag chaveiro e monitoramento 24h. Mais segurança para o seu veículo." },
-      { property: "og:title", content: "RB Auto Tracker — Rastreamento Veicular Premium" },
-      { property: "og:description", content: "Tecnologia GPS, segurança e inteligência para você ir sempre mais longe." },
-    ],
-  }),
   component: Index,
 });
 
