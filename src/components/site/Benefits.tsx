@@ -11,14 +11,15 @@ const benefits = [
 
 export function Benefits() {
   return (
-    <section id="beneficios" className="relative py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section id="beneficios" className="relative py-28 sm:py-36 overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/5 blur-[150px] pointer-events-none" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
         <SectionHeading
           eyebrow="Benefícios"
           title="Proteção inteligente em cada detalhe"
-          description="Tudo o que você precisa para manter o controle total do seu veículo."
+          description="Tudo o que você precisa para manter o controle total do seu veículo com a melhor tecnologia do mercado."
         />
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 animate-fade-up">
           {benefits.map((b) => (
             <FeatureCard key={b.title} {...b} />
           ))}

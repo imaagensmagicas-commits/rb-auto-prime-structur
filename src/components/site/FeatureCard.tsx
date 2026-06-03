@@ -8,15 +8,14 @@ interface FeatureCardProps {
 
 export function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-border bg-card/60 p-6 transition-all hover:-translate-y-1 hover:border-neon/50">
-      <div className="absolute inset-0 bg-gradient-to-br from-neon/0 to-neon/0 opacity-0 transition-opacity group-hover:opacity-100" />
-      <div className="relative">
-        <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-neon/10 text-neon ring-1 ring-neon/30">
-          <Icon className="h-6 w-6" />
-        </div>
-        <h3 className="mt-5 font-display text-lg font-semibold text-foreground">{title}</h3>
-        <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{description}</p>
+    <div className="glass-card neon-border-glow group relative flex flex-col rounded-3xl p-8">
+      <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-neon/10 text-neon transition-all duration-500 group-hover:bg-neon group-hover:text-neon-foreground group-hover:neon-glow group-hover:scale-110">
+        <Icon className="h-7 w-7" />
       </div>
+      <h3 className="font-display text-xl font-bold text-foreground transition-colors group-hover:text-neon">{title}</h3>
+      <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+        {description}
+      </p>
     </div>
   );
 }

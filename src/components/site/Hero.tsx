@@ -4,21 +4,22 @@ import tracker from "@/assets/tracker-device.jpg";
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-24 pb-16 sm:pt-32 sm:pb-24">
-      <div className="absolute inset-0 grid-pattern opacity-40" />
-      <div className="absolute -top-20 right-0 h-[500px] w-[500px] rounded-full bg-neon/20 blur-[120px]" />
+    <section id="top" className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-32">
+      <div className="absolute inset-0 grid-pattern opacity-[0.15]" />
+      <div className="absolute -top-40 -right-40 h-[600px] w-[600px] rounded-full bg-neon/15 blur-[120px] animate-pulse-soft" />
+      <div className="absolute top-1/2 -left-40 h-[400px] w-[400px] rounded-full bg-primary/10 blur-[100px] animate-pulse-soft" style={{ animationDelay: '2s' }} />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-        <div>
-          <span className="inline-flex items-center gap-2 rounded-full border border-neon/40 bg-neon/10 px-3 py-1 text-xs font-medium uppercase tracking-widest text-neon">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+        <div className="animate-fade-up">
+          <span className="inline-flex items-center gap-2 rounded-full border border-neon/30 bg-neon/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-neon shadow-[0_0_15px_rgba(125,211,252,0.1)]">
             <ShieldCheck className="h-3.5 w-3.5" />
             Rastreamento Veicular Premium
           </span>
-          <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="mt-8 font-display text-5xl font-bold leading-[1.1] text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
             Segurança de elite <br />
             para o que é <span className="neon-text">seu por direito</span>.
           </h1>
-          <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
+          <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
             A RB Auto Tracker oferece tecnologia GPS de alta precisão e monitoramento 24h. 
             Proteja seu veículo com a empresa que é referência em Belo Horizonte desde 2018.
           </p>
@@ -55,19 +56,21 @@ export function Hero() {
           </dl>
         </div>
 
-        <div className="relative">
-          <div className="glass relative overflow-hidden rounded-3xl">
-            <img
-              src={hero}
-              alt="Caminhão e carro rastreados pela RB"
-              className="aspect-[4/3] w-full object-cover"
-              loading="lazy"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+        <div className="relative animate-fade-up" style={{ animationDelay: '0.2s' }}>
+          <div className="glass-card relative overflow-hidden rounded-[2.5rem] p-3 shadow-2xl animate-float">
+            <div className="overflow-hidden rounded-[2rem]">
+              <img
+                src={hero}
+                alt="Caminhão e carro rastreados pela RB"
+                className="aspect-[4/3] w-full object-cover transition-transform duration-700 hover:scale-105"
+                loading="lazy"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent pointer-events-none" />
           </div>
-          <div className="absolute -bottom-8 -left-6 hidden w-56 rotate-[-6deg] glass rounded-2xl p-4 sm:block">
-            <img src={tracker} alt="Rastreador GPS RB" className="h-32 w-full rounded-xl object-cover" loading="lazy" />
-            <p className="mt-3 text-xs font-semibold text-foreground">Rastreador GPS RB</p>
+          <div className="absolute -bottom-10 -left-10 hidden w-64 rotate-[-6deg] glass-card rounded-2xl p-5 sm:block animate-float" style={{ animationDelay: '1s' }}>
+            <img src={tracker} alt="Rastreador GPS RB" className="h-36 w-full rounded-xl object-cover" loading="lazy" />
+            <p className="mt-4 text-sm font-bold text-foreground">Rastreador GPS RB</p>
             <p className="text-xs text-muted-foreground">Compacto · Discreto · Preciso</p>
           </div>
         </div>
