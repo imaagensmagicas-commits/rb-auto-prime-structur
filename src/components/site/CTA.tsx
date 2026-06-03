@@ -2,9 +2,9 @@ import { ArrowRight, Phone } from "lucide-react";
 
 export function CTA() {
   return (
-    <section id="cta" className="relative py-20 sm:py-28">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-3xl border border-neon/30 bg-gradient-to-br from-primary/40 via-surface to-surface p-8 sm:p-14">
+    <section id="cta" className="relative py-28 sm:py-36 overflow-hidden">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-[3rem] border border-white/5 bg-gradient-to-br from-primary/30 via-surface to-background p-10 sm:p-20 shadow-2xl animate-fade-up">
           <div className="absolute -top-20 -right-20 h-72 w-72 rounded-full bg-neon/30 blur-[100px]" />
           <div className="absolute inset-0 grid-pattern opacity-30" />
 
