@@ -186,3 +186,5 @@
     opacity: 1;
   }
 }
+
+#lovable-badge { display: none !important; }
