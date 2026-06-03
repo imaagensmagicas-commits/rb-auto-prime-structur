@@ -23,6 +23,16 @@ export function Benefits() {
             <FeatureCard key={b.title} {...b} />
           ))}
         </div>
+        <div className="mt-12 text-center">
+          <a
+            href="https://wa.me/5531983181380"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-11 items-center gap-2 rounded-full border border-neon/40 bg-neon/5 px-6 text-sm font-semibold text-neon transition-all hover:bg-neon hover:text-neon-foreground"
+          >
+            Conhecer todos os benefícios
+          </a>
+        </div>
       </div>
     </section>
   );

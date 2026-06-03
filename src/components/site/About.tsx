@@ -55,6 +55,17 @@ export function About() {
               </div>
             </li>
           </ul>
+          
+          <div className="mt-10">
+            <a
+              href="https://wa.me/5531983181380"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center gap-2 rounded-full bg-neon px-8 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
+            >
+              Falar com nossa equipe
+            </a>
+          </div>
         </div>
       </div>
     </section>
