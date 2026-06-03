@@ -8,38 +8,36 @@ export function CTA() {
           <div className="absolute -top-20 -right-20 h-72 w-72 rounded-full bg-neon/30 blur-[100px]" />
           <div className="absolute inset-0 grid-pattern opacity-30" />
 
-          <div className="relative grid items-center gap-8 lg:grid-cols-[2fr_1fr]">
-            <div>
-              <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
-                Pronto para proteger <br />
-                <span className="neon-text">o seu veículo?</span>
+            <div className="relative text-center">
+              <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
+                Proteja seu veículo com <br />
+                <span className="neon-text">quem entende de segurança.</span>
               </h2>
-              <p className="mt-4 max-w-xl text-base text-muted-foreground sm:text-lg">
-                Solicite uma proposta personalizada e descubra como a RB pode trazer mais
-                segurança e controle para o seu dia a dia.
+              <p className="mt-8 mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
+                A tecnologia certa para acompanhar, monitorar e proteger seu patrimônio em tempo real.
               </p>
+              
+              <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a
+                  href="https://wa.me/5531983181380"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-neon px-10 text-base font-bold text-neon-foreground neon-glow transition-all hover:scale-105"
+                >
+                  Solicitar Orçamento Agora
+                  <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </a>
+                <a
+                  href="https://wa.me/5531986201766"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-14 items-center justify-center gap-3 rounded-full border border-white/10 bg-white/5 backdrop-blur-md px-10 text-base font-bold hover:border-neon/40 hover:text-neon transition-all"
+                >
+                  <Phone className="h-5 w-5" />
+                  Falar no WhatsApp
+                </a>
+              </div>
             </div>
-            <div className="flex flex-col gap-3">
-              <a
-                href="https://wa.me/5531983181380"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-neon px-6 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
-              >
-                Solicitar proposta
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href="https://wa.me/5531986201766"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-border px-6 text-sm font-semibold hover:border-neon/60 hover:text-neon"
-              >
-                <Phone className="h-4 w-4" />
-                Falar com consultor
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
