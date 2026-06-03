@@ -59,11 +59,12 @@ export function Hero() {
               src={hero}
               alt="Caminhão e carro rastreados pela RB"
               className="aspect-[4/3] w-full object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
           </div>
           <div className="absolute -bottom-8 -left-6 hidden w-56 rotate-[-6deg] glass rounded-2xl p-4 sm:block">
-            <img src={tracker} alt="Rastreador GPS RB" className="h-32 w-full rounded-xl object-cover" />
+            <img src={tracker} alt="Rastreador GPS RB" className="h-32 w-full rounded-xl object-cover" loading="lazy" />
             <p className="mt-3 text-xs font-semibold text-foreground">Rastreador GPS RB</p>
             <p className="text-xs text-muted-foreground">Compacto · Discreto · Preciso</p>
           </div>

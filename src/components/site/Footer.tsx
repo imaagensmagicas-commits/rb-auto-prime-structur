@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-4 lg:px-8">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="RB" className="h-10 w-10 rounded-full bg-white/95 p-0.5" />
+            <img src={logo} alt="RB" className="h-10 w-10 rounded-full bg-white/95 p-0.5" loading="lazy" />
             <span className="font-display text-base font-bold">
               RB <span className="text-neon">Auto Tracker</span>
             </span>

@@ -9,7 +9,7 @@ export function About() {
           <div className="glass relative aspect-square max-w-md overflow-hidden rounded-3xl p-10">
             <div className="absolute inset-0 grid-pattern opacity-40" />
             <div className="relative flex h-full items-center justify-center">
-              <img src={logo} alt="RB Rastreamento" className="h-56 w-56 rounded-full bg-white/95 p-3 neon-glow" />
+              <img src={logo} alt="RB Rastreamento" className="h-56 w-56 rounded-full bg-white/95 p-3 neon-glow" loading="lazy" />
             </div>
           </div>
           <div className="absolute -bottom-6 -right-4 hidden glass rounded-2xl p-4 sm:block">
