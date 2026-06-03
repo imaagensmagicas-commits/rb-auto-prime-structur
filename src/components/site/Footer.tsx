@@ -13,8 +13,9 @@ export function Footer() {
             </span>
           </div>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-            Rastreamento veicular premium com tecnologia GPS, identificação de motorista e
-            monitoramento 24h.
+            RB Tracker Rastreamento e Tecnologia e Eventos Ltda <br />
+            CNPJ: 31.495.657/0001-09 <br />
+            Excelência em rastreamento veicular desde 2018.
           </p>
         </div>
 
@@ -38,7 +39,7 @@ export function Footer() {
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98318-1380</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98620-1766</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> contato@rbautotracker.com</li>
-            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Belo Horizonte - MG</li>
+            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Savassi, Belo Horizonte - MG</li>
           </ul>
         </div>
       </div>

@@ -15,12 +15,12 @@ export function Hero() {
             Rastreamento Veicular Premium
           </span>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-            Mais segurança <br />
-            para você ir <span className="neon-text">sempre mais longe</span>.
+            Segurança de elite <br />
+            para o que é <span className="neon-text">seu por direito</span>.
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
-            Tecnologia GPS de ponta com identificação de motorista, tag chaveiro e
-            monitoramento 24h. Proteção inteligente para o seu veículo, em tempo real.
+            A RB Auto Tracker oferece tecnologia GPS de alta precisão e monitoramento 24h. 
+            Proteja seu veículo com a empresa que é referência em Belo Horizonte desde 2018.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
