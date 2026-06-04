@@ -20,7 +20,7 @@ export function Hero() {
             para o que é <span className="neon-text">seu por direito</span>.
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            A RB Auto Tracker oferece tecnologia GPS de alta precisão e monitoramento 24h. 
+            A RB Rastreamento Veicular oferece tecnologia GPS 4G de alta precisão e monitoramento 24h. 
             Proteja seu veículo com a empresa que é referência em Belo Horizonte desde 2018.
           </p>
 
