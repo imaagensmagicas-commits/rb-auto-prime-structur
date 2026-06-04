@@ -17,7 +17,7 @@ export function Benefits() {
         <SectionHeading
           eyebrow="Benefícios"
           title="Proteção inteligente em cada detalhe"
-          description="Tudo o que você precisa para manter o controle total do seu veículo com a melhor tecnologia do mercado."
+          description="Tudo o que você precisa para manter o controle total do seu veículo com a melhor tecnologia da RB Rastreamento Veicular."
         />
         <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 animate-fade-up">
           {benefits.map((b) => (

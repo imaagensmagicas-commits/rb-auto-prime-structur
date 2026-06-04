@@ -30,7 +30,7 @@ export function FAQ() {
         <SectionHeading
           eyebrow="Dúvidas Frequentes"
           title="Tire suas dúvidas"
-          description="Preparamos as respostas para as perguntas mais comuns sobre nossa tecnologia."
+          description="Tire suas dúvidas sobre o serviço de proteção da RB Rastreamento Veicular."
         />
         
         <div className="mt-20 space-y-4 animate-fade-up">
