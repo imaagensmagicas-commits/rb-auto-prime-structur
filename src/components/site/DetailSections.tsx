@@ -59,7 +59,7 @@ export function DetailSections() {
             </p>
             <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&q=80&w=1200" 
                 alt="Gestão de Frota" 
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
