@@ -6,7 +6,7 @@ const info = [
     icon: Eye,
     title: "Sensor de Fadiga",
     description: "Monitoramento por câmera inteligente que detecta sinais de cansaço, bocejos e distração do motorista em tempo real.",
-    image: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1517524204709-440d4432194c?auto=format&fit=crop&q=80&w=800"
   },
   {
     icon: BarChart3,
@@ -18,7 +18,7 @@ const info = [
     icon: Fingerprint,
     title: "Identificador de Motorista RFID",
     description: "Controle total sobre quem conduz o veículo através de cartões ou tags de identificação por radiofrequência.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
@@ -59,7 +59,7 @@ export function DetailSections() {
             </p>
             <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1504607798333-52a30db54a5d?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&q=80&w=1200" 
                 alt="Gestão de Frota" 
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -77,7 +77,7 @@ export function DetailSections() {
             </p>
             <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1544725121-be3b5d0c19cb?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1530046339160-ce3e5b0c7a2f?auto=format&fit=crop&q=80&w=1200" 
                 alt="Instalação Profissional" 
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
