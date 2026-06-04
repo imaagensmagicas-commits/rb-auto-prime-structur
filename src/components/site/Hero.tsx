@@ -60,8 +60,8 @@ export function Hero() {
           <div className="glass-card relative overflow-hidden rounded-[2.5rem] p-3 shadow-2xl animate-float">
             <div className="overflow-hidden rounded-[2rem]">
               <img
-                src={hero}
-                alt="Caminhão e carro rastreados pela RB"
+                src="https://images.unsplash.com/photo-1551829142-d9b812ee3f23?auto=format&fit=crop&q=80&w=1200"
+                alt="Veículo moderno sendo rastreado"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />

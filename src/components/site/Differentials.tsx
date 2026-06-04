@@ -16,7 +16,7 @@ export function Differentials() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
         <SectionHeading
           eyebrow="Diferenciais"
-          title="Por que escolher a RB Auto Tracker"
+          title="Por que escolher a RB Rastreamento Veicular"
           description="Tecnologia, suporte e confiança que fazem a diferença na sua proteção com soluções de última geração."
         />
         <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 animate-fade-up">

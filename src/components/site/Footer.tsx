@@ -9,7 +9,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <img src={logo} alt="RB" className="h-10 w-10 rounded-full bg-white/95 p-0.5" loading="lazy" />
             <span className="font-display text-base font-bold">
-              RB <span className="text-neon">Auto Tracker</span>
+              RB <span className="text-neon">Rastreamento Veicular</span>
             </span>
           </div>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
@@ -38,13 +38,13 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98318-1380</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98620-1766</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> contato@rbautotracker.com</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> RBrastreamento@gmail.com</li>
             <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Savassi, Belo Horizonte - MG</li>
           </ul>
         </div>
       </div>
       <div className="mx-auto mt-10 max-w-7xl border-t border-border/60 px-4 pt-6 text-center text-xs text-muted-foreground sm:px-6 lg:px-8">
-        © {new Date().getFullYear()} RB Auto Tracker Rastreamento. Todos os direitos reservados.
+        © {new Date().getFullYear()} RB Rastreamento Veicular. Todos os direitos reservados.
       </div>
     </footer>
   );

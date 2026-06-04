@@ -31,7 +31,7 @@ export function About() {
             Sua segurança é a <span className="neon-text">nossa prioridade</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground sm:text-lg">
-            Fundada em 13 de setembro de 2018, a RB Tracker Rastreamento e Tecnologia consolidou-se no mercado de Belo Horizonte como sinônimo de excelência e inovação. 
+            Fundada em 13 de setembro de 2018, a RB Rastreamento Veicular consolidou-se no mercado de Belo Horizonte como sinônimo de excelência e inovação. 
             Com sede na Savassi, combinamos anos de experiência com tecnologia GPS de última geração para oferecer proteção real ao seu patrimônio.
           </p>
           <p className="mt-4 text-base text-muted-foreground sm:text-lg">
