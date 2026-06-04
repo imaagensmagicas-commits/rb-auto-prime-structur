@@ -5,7 +5,7 @@ const devices = [
   {
     title: "Rastreador 4G Veicular",
     description: "Equipamento compacto e discreto com tecnologia 4G LTE para maior velocidade e precisão.",
-    image: "/rastreador-4g.jpg?v=1",
+    image: "https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=800",
     icon: Cpu,
     specs: ["Conexão 4G LTE", "Backup de Bateria", "Antifurto Integrado"]
   },
@@ -19,14 +19,14 @@ const devices = [
   {
     title: "Dispositivo OBD-II 4G",
     description: "Instalação rápida e simplificada via porta OBD, ideal para monitoramento imediato.",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800",
     icon: Smartphone,
     specs: ["Instalação Plug & Play", "Diagnóstico Remoto", "Sinal 4G Estável"]
   },
   {
     title: "Equipamento Blindado",
     description: "Proteção extra contra água e poeira (IP67), ideal para máquinas e veículos pesados.",
-    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
     icon: ShieldCheck,
     specs: ["Proteção IP67", "Resistente a Impactos", "Alta Durabilidade"]
   }
