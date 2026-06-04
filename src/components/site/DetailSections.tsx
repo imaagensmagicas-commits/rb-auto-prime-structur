@@ -1,5 +1,5 @@
 import { SectionHeading } from "./SectionHeading";
-import { Activity, BarChart3, Fingerprint } from "lucide-react";
+import { Activity, BarChart3, Fingerprint, Eye } from "lucide-react";
 
 const info = [
   {
@@ -21,8 +21,6 @@ const info = [
     image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=800"
   }
 ];
-
-import { Eye } from "lucide-react";
 
 export function DetailSections() {
   return (
