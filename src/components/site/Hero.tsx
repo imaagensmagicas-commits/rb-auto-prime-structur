@@ -60,16 +60,16 @@ export function Hero() {
           <div className="glass-card relative overflow-hidden rounded-[2.5rem] p-3 shadow-2xl animate-float">
             <div className="overflow-hidden rounded-[2rem]">
               <img
-                src="https://images.unsplash.com/photo-1551829142-d9b812ee3f23?auto=format&fit=crop&q=80&w=1200"
-                alt="Veículo moderno sendo rastreado"
+                src="https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=1200"
+                alt="Sistema de Rastreamento Veicular 4G"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-700 hover:scale-105"
-                loading="lazy"
+                loading="eager"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent pointer-events-none" />
           </div>
           <div className="absolute -bottom-10 -left-10 hidden w-64 rotate-[-6deg] glass-card rounded-2xl p-5 sm:block animate-float" style={{ animationDelay: '1s' }}>
-            <img src={tracker} alt="Rastreador GPS RB" className="h-36 w-full rounded-xl object-cover" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=600" alt="Rastreador GPS RB" className="h-36 w-full rounded-xl object-cover" loading="lazy" />
             <p className="mt-4 text-sm font-bold text-foreground">Rastreador GPS RB</p>
             <p className="text-xs text-muted-foreground">Compacto · Discreto · Preciso</p>
           </div>
