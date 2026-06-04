@@ -60,7 +60,7 @@ export function AdvancedTechnology() {
                   <img 
                     src={tech.image} 
                     alt={tech.title}
-                    className="h-full w-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-110"
+                    className="h-full w-full object-contain opacity-60 transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
