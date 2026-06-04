@@ -83,7 +83,7 @@ export function DeviceShowcase() {
 
         <div className="mt-16 flex justify-center">
           <a 
-            href="https://wa.me/5531995175657" 
+            href="https://wa.me/5531997554556" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary group"

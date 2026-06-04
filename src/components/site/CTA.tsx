@@ -19,7 +19,7 @@ export function CTA() {
               
               <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="https://wa.me/5531983181380"
+                  href="https://wa.me/5531997554556"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-neon px-10 text-base font-bold text-neon-foreground neon-glow transition-all hover:scale-105"
@@ -28,7 +28,7 @@ export function CTA() {
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a
-                  href="https://wa.me/5531986201766"
+                  href="https://wa.me/5531997554556"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex h-14 items-center justify-center gap-3 rounded-full border border-white/10 bg-white/5 backdrop-blur-md px-10 text-base font-bold hover:border-neon/40 hover:text-neon transition-all"

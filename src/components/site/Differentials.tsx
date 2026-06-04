@@ -26,7 +26,7 @@ export function Differentials() {
         </div>
         <div className="mt-12 text-center">
           <a
-            href="https://wa.me/5531983181380"
+            href="https://wa.me/5531997554556"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex h-11 items-center gap-2 rounded-full bg-neon px-8 text-sm font-semibold text-neon-foreground neon-glow transition-transform hover:scale-105"
