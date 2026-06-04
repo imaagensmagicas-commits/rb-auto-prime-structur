@@ -30,23 +30,62 @@ export function DetailSections() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-3">
           {info.map((item, idx) => (
-            <div key={idx} className="glass-card rounded-3xl p-8 flex flex-col">
-              <div className="h-12 w-12 rounded-2xl bg-neon/10 flex items-center justify-center text-neon mb-6">
+            <div key={idx} className="glass-card rounded-3xl p-8 flex flex-col group">
+              <div className="h-12 w-12 rounded-2xl bg-neon/10 flex items-center justify-center text-neon mb-6 group-hover:bg-neon group-hover:text-neon-foreground transition-all duration-300">
                 <item.icon className="h-6 w-6" />
               </div>
-              <h3 className="font-display text-xl font-bold mb-4">{item.title}</h3>
+              <h3 className="font-display text-xl font-bold mb-4 group-hover:text-neon transition-colors">{item.title}</h3>
               <p className="text-muted-foreground text-sm mb-8 flex-1">
                 {item.description}
               </p>
-              <div className="aspect-video w-full overflow-hidden rounded-2xl">
+              <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
                 <img 
                   src={item.image} 
                   alt={item.title} 
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-24 grid gap-12 lg:grid-cols-2">
+          <div className="glass-card rounded-3xl p-8 flex flex-col group">
+            <div className="h-12 w-12 rounded-2xl bg-neon/10 flex items-center justify-center text-neon mb-6 group-hover:bg-neon group-hover:text-neon-foreground transition-all duration-300">
+              <BarChart3 className="h-6 w-6" />
+            </div>
+            <h3 className="font-display text-xl font-bold mb-4 group-hover:text-neon transition-colors">Gestão de Frota</h3>
+            <p className="text-muted-foreground text-sm mb-8">
+              Monitoramento simultâneo de múltiplos veículos com central de controle e sistema avançado de gerenciamento.
+            </p>
+            <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
+              <img 
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200" 
+                alt="Gestão de Frota" 
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+            </div>
+          </div>
+
+          <div className="glass-card rounded-3xl p-8 flex flex-col group">
+            <div className="h-12 w-12 rounded-2xl bg-neon/10 flex items-center justify-center text-neon mb-6 group-hover:bg-neon group-hover:text-neon-foreground transition-all duration-300">
+              <Activity className="h-6 w-6" />
+            </div>
+            <h3 className="font-display text-xl font-bold mb-4 group-hover:text-neon transition-colors">Instalação Profissional</h3>
+            <p className="text-muted-foreground text-sm mb-8">
+              Técnicos especializados realizam a configuração e instalação discreta do equipamento no seu veículo.
+            </p>
+            <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
+              <img 
+                src="https://images.unsplash.com/photo-1486006396113-adeba3f465a3?auto=format&fit=crop&q=80&w=1200" 
+                alt="Instalação Profissional" 
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+            </div>
+          </div>
         </div>
       </div>
     </section>

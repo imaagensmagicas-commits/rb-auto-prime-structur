@@ -56,11 +56,11 @@ export function AdvancedTechnology() {
               </ul>
               
               <div className="mt-10 pt-10 border-t border-white/5">
-                <div className="aspect-video w-full overflow-hidden rounded-2xl bg-black/40 relative">
+                <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
                   <img 
                     src={tech.image} 
                     alt={tech.title}
-                    className="h-full w-full object-contain opacity-60 transition-transform duration-700 group-hover:scale-110"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
