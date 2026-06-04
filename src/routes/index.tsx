@@ -5,6 +5,7 @@ import { Benefits } from "@/components/site/Benefits";
 import { Stats } from "@/components/site/Stats";
 import { HowItWorks } from "@/components/site/HowItWorks";
 import { AdvancedTechnology } from "@/components/site/AdvancedTechnology";
+import { DeviceShowcase } from "@/components/site/DeviceShowcase";
 import { Differentials } from "@/components/site/Differentials";
 import { Testimonials } from "@/components/site/Testimonials";
 import { About } from "@/components/site/About";
@@ -26,6 +27,7 @@ function Index() {
         <Benefits />
         <HowItWorks />
         <AdvancedTechnology />
+        <DeviceShowcase />
         <Differentials />
         <Testimonials />
         <About />
