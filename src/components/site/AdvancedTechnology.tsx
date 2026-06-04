@@ -17,7 +17,7 @@ const advancedTech = [
     description: "Equipamentos de última geração com conectividade 4G, garantindo maior estabilidade de sinal e cobertura ampliada em todo o território nacional.",
     badge: "Alta Performance",
     features: ["Maior estabilidade", "Localização em tempo real", "Cobertura ampliada", "Tecnologia atualizada"],
-    image: "/rastreador-4g.jpg?v=1"
+    image: "/rastreadores-4g.jpeg"
   }
 ];
 
