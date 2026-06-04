@@ -6,19 +6,19 @@ const info = [
     icon: Eye,
     title: "Sensor de Fadiga",
     description: "Monitoramento por câmera inteligente que detecta sinais de cansaço, bocejos e distração do motorista em tempo real.",
-    image: "/telemetria-completa.jpg"
+    image: "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&q=80&w=800"
   },
   {
     icon: BarChart3,
     title: "Telemetria Avançada",
     description: "Dados completos sobre o comportamento do veículo: velocidade, consumo, temperatura do motor e diagnósticos remotos.",
-    image: "/telemetria-completa.jpg"
+    image: "https://images.unsplash.com/photo-1551829142-d9b812ee3f23?auto=format&fit=crop&q=80&w=800"
   },
   {
     icon: Fingerprint,
     title: "Identificador de Motorista RFID",
     description: "Controle total sobre quem conduz o veículo através de cartões ou tags de identificação por radiofrequência.",
-    image: "/telemetria-completa.jpg"
+    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=800"
   }
 ];
 

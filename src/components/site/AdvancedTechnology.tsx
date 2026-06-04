@@ -9,7 +9,7 @@ const advancedTech = [
     description: "Tecnologia preventiva que monitora o motorista em tempo real, detectando sinais de sonolência e distração para garantir uma condução segura.",
     badge: "Inovação",
     features: ["Monitoramento do motorista", "Detecção de sonolência", "Tecnologia preventiva", "Mais segurança na condução"],
-    image: "/telemetria-completa.jpg"
+    image: "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&q=80&w=1200"
   },
   {
     icon: Radio,
