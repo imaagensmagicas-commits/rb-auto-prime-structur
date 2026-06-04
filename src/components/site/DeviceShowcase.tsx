@@ -1,11 +1,12 @@
 import { SectionHeading } from "./SectionHeading";
 import { Cpu, Smartphone, Monitor, ShieldCheck } from "lucide-react";
+import rastreadorImg from "../../assets/rastreador-4g.jpeg";
 
 const devices = [
   {
     title: "Rastreador 4G Veicular",
     description: "Equipamento compacto e discreto com tecnologia 4G LTE para maior velocidade e precisão.",
-    image: "/src/assets/rastreador-4g.jpeg",
+    image: rastreadorImg,
     icon: Cpu,
     specs: ["Conexão 4G LTE", "Backup de Bateria", "Antifurto Integrado"]
   },
