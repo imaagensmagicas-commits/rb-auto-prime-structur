@@ -12,8 +12,8 @@ const devices = [
   },
   {
     title: "Módulo de Monitoramento",
-    description: "Módulo avançado para gestão de frotas e telemetria veicular completa.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    description: "Monitore em tempo real todos os locais e informações através de uma plataforma completa.",
+    image: "/modulo-monitoramento.jpg",
     icon: Monitor,
     specs: ["Telemetria Avançada", "Corte de Combustível", "Alertas de Ignição"]
   },
