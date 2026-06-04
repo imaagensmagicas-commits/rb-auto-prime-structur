@@ -1,4 +1,4 @@
-import logo from "@/assets/rb-logo.png";
+import logo from "/rb-logo-official.jpg";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {

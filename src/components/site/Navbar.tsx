@@ -1,4 +1,4 @@
-import logo from "@/assets/rb-logo.png";
+import logo from "/rb-logo-official.jpg";
 
 const links = [
   { href: "#beneficios", label: "Benefícios" },
