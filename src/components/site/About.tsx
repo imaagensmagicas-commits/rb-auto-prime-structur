@@ -1,5 +1,5 @@
 import { MapPin, Award, Building2 } from "lucide-react";
-import logo from "@/assets/rb-logo.png";
+import logo from "/rb-logo-official.jpg";
 
 export function About() {
   return (

@@ -6,6 +6,7 @@ import { Stats } from "@/components/site/Stats";
 import { HowItWorks } from "@/components/site/HowItWorks";
 import { AdvancedTechnology } from "@/components/site/AdvancedTechnology";
 import { DeviceShowcase } from "@/components/site/DeviceShowcase";
+import { DetailSections } from "@/components/site/DetailSections";
 import { Differentials } from "@/components/site/Differentials";
 import { Testimonials } from "@/components/site/Testimonials";
 import { About } from "@/components/site/About";
@@ -28,6 +29,7 @@ function Index() {
         <HowItWorks />
         <AdvancedTechnology />
         <DeviceShowcase />
+        <DetailSections />
         <Differentials />
         <Testimonials />
         <About />

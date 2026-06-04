@@ -8,14 +8,16 @@ const advancedTech = [
     title: "Sensor de Fadiga com Câmera Inteligente",
     description: "Tecnologia preventiva que monitora o motorista em tempo real, detectando sinais de sonolência e distração para garantir uma condução segura.",
     badge: "Inovação",
-    features: ["Monitoramento do motorista", "Detecção de sonolência", "Tecnologia preventiva", "Mais segurança na condução"]
+    features: ["Monitoramento do motorista", "Detecção de sonolência", "Tecnologia preventiva", "Mais segurança na condução"],
+    image: "/telemetria-completa.jpg"
   },
   {
     icon: Radio,
     title: "Rastreadores 4G",
     description: "Equipamentos de última geração com conectividade 4G, garantindo maior estabilidade de sinal e cobertura ampliada em todo o território nacional.",
     badge: "Alta Performance",
-    features: ["Maior estabilidade", "Localização em tempo real", "Cobertura ampliada", "Tecnologia atualizada"]
+    features: ["Maior estabilidade", "Localização em tempo real", "Cobertura ampliada", "Tecnologia atualizada"],
+    image: "/telemetria-completa.jpg"
   }
 ];
 
@@ -56,9 +58,7 @@ export function AdvancedTechnology() {
               <div className="mt-10 pt-10 border-t border-white/5">
                 <div className="aspect-video w-full overflow-hidden rounded-2xl bg-black/40 relative">
                   <img 
-                    src={i === 0 
-                      ? "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" 
-                      : "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=800"} 
+                    src={tech.image} 
                     alt={tech.title}
                     className="h-full w-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
