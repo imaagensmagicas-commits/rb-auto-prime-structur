@@ -5,7 +5,7 @@ const devices = [
   {
     title: "Rastreador 4G Veicular",
     description: "Equipamento compacto e discreto com tecnologia 4G LTE para maior velocidade e precisão.",
-    image: "/rastreador-4g.jpg",
+    image: "/rastreador-4g.jpg?v=1",
     icon: Cpu,
     specs: ["Conexão 4G LTE", "Backup de Bateria", "Antifurto Integrado"]
   },
@@ -52,7 +52,7 @@ export function DeviceShowcase() {
                 <img 
                   src={device.image} 
                   alt={device.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="h-full w-full object-contain bg-white/5 transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 flex h-10 w-10 items-center justify-center rounded-xl bg-neon/20 backdrop-blur-md border border-neon/30 text-neon">
