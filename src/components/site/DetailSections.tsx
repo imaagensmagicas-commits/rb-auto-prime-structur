@@ -6,7 +6,7 @@ const info = [
     icon: Eye,
     title: "Sensor de Fadiga",
     description: "Monitoramento por câmera inteligente que detecta sinais de cansaço, bocejos e distração do motorista em tempo real.",
-    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=800"
+    image: "/sensor-fadiga.jpeg"
   },
   {
     icon: BarChart3,
