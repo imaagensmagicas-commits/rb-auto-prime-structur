@@ -19,7 +19,7 @@ const devices = [
   {
     title: "Dispositivo OBD-II 4G",
     description: "Instalação rápida e simplificada via porta OBD, ideal para monitoramento imediato.",
-    image: "https://images.unsplash.com/photo-1635773105310-97c9287f394f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800",
     icon: Smartphone,
     specs: ["Instalação Plug & Play", "Diagnóstico Remoto", "Sinal 4G Estável"]
   },
