@@ -1,5 +1,5 @@
 import logo from "/rb-logo-official.jpg";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -17,6 +17,14 @@ export function Footer() {
             CNPJ: 31.495.657/0001-09 <br />
             Excelência em rastreamento veicular desde 2018.
           </p>
+          <div className="mt-6 flex gap-4">
+            <a href="https://www.instagram.com/rb_rastreamentos" target="_blank" rel="noopener noreferrer" className="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-muted-foreground hover:text-neon hover:border-neon/40 transition-all">
+              <Instagram className="h-5 w-5" />
+            </a>
+            <a href="https://www.facebook.com/share/1GHxUu6XMK/" target="_blank" rel="noopener noreferrer" className="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-muted-foreground hover:text-neon hover:border-neon/40 transition-all">
+              <Facebook className="h-5 w-5" />
+            </a>
+          </div>
         </div>
 
         <div>
@@ -36,8 +44,12 @@ export function Footer() {
             Contato
           </h4>
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98318-1380</li>
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-neon" /> (31) 98620-1766</li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-neon" /> 
+              <a href="https://wa.me/5531997554556" target="_blank" rel="noopener noreferrer" className="hover:text-neon transition-colors">
+                (31) 99755-4556
+              </a>
+            </li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> RBrastreamento@gmail.com</li>
             <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Savassi, Belo Horizonte - MG</li>
           </ul>

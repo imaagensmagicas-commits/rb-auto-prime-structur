@@ -13,6 +13,7 @@ import { About } from "@/components/site/About";
 import { FAQ } from "@/components/site/FAQ";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -37,6 +38,7 @@ function Index() {
         <CTA />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
