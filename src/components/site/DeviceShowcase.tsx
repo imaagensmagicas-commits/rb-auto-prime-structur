@@ -26,8 +26,8 @@ const devices = [
   },
   {
     title: "Equipamento Blindado",
-    description: "Proteção extra contra água e poeira (IP67), ideal para máquinas e veículos pesados.",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+    description: "Proteção máxima contra furtos e tentativas de violação, ideal para motocicletas e veículos premium.",
+    image: "/equipamento-blindado.jpeg",
     icon: ShieldCheck,
     specs: ["Proteção IP67", "Resistente a Impactos", "Alta Durabilidade"]
   }
