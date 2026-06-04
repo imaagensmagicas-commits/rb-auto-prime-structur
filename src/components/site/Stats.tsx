@@ -3,27 +3,27 @@ import { Calendar, CheckCircle2, MapPin, Headset } from "lucide-react";
 const stats = [
   {
     icon: Calendar,
-    label: "Desde 2018",
-    value: "8 Anos",
-    description: "Tradição e confiança",
+    label: "Mercado desde 2018",
+    value: "Referência",
+    description: "Tradição em BH",
   },
   {
     icon: CheckCircle2,
-    label: "Empresa Ativa",
-    value: "100%",
-    description: "Compromisso total",
+    label: "RB Rastreamento",
+    value: "Ativa",
+    description: "CNPJ 31.495.657/0001-09",
   },
   {
     icon: MapPin,
     label: "Belo Horizonte/MG",
-    value: "Sede Própria",
+    value: "Savassi",
     description: "Localização estratégica",
   },
   {
     icon: Headset,
-    label: "Atendimento Especializado",
+    label: "Suporte Técnico",
     value: "24h",
-    description: "Sempre à disposição",
+    description: "Atendimento Especializado",
   },
 ];
 

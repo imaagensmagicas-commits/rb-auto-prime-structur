@@ -14,8 +14,8 @@ export function CTA() {
                 <span className="neon-text">quem entende de segurança.</span>
               </h2>
               <p className="mt-8 mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
-                A tecnologia certa para acompanhar, monitorar e proteger seu patrimônio em tempo real.
-              </p>
+            A tecnologia certa da RB Rastreamento Veicular para acompanhar, monitorar e proteger seu patrimônio em tempo real.
+          </p>
               
               <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a

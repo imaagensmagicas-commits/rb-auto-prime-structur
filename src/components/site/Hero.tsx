@@ -20,7 +20,7 @@ export function Hero() {
             para o que é <span className="neon-text">seu por direito</span>.
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            A RB Auto Tracker oferece tecnologia GPS de alta precisão e monitoramento 24h. 
+            A RB Rastreamento Veicular oferece tecnologia GPS 4G de alta precisão e monitoramento 24h. 
             Proteja seu veículo com a empresa que é referência em Belo Horizonte desde 2018.
           </p>
 
@@ -60,8 +60,8 @@ export function Hero() {
           <div className="glass-card relative overflow-hidden rounded-[2.5rem] p-3 shadow-2xl animate-float">
             <div className="overflow-hidden rounded-[2rem]">
               <img
-                src={hero}
-                alt="Caminhão e carro rastreados pela RB"
+                src="https://images.unsplash.com/photo-1551829142-d9b812ee3f23?auto=format&fit=crop&q=80&w=1200"
+                alt="Veículo moderno sendo rastreado"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />

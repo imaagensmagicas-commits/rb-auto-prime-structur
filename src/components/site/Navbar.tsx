@@ -3,7 +3,8 @@ import logo from "@/assets/rb-logo.png";
 const links = [
   { href: "#beneficios", label: "Benefícios" },
   { href: "#como-funciona", label: "Como Funciona" },
-  { href: "#diferenciais", label: "Diferenciais" },
+  { href: "#tecnologia", label: "Tecnologia" },
+  { href: "#depoimentos", label: "Depoimentos" },
   { href: "#sobre", label: "Sobre" },
 ];
 
@@ -12,9 +13,9 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-background/60 backdrop-blur-2xl transition-all duration-300">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logo} alt="RB Rastreamento" className="h-9 w-9 rounded-full bg-white/95 p-0.5" loading="lazy" />
-          <span className="font-display text-sm font-bold tracking-wide text-foreground sm:text-base">
-            RB <span className="text-neon">Auto Tracker</span>
+          <img src={logo} alt="RB Rastreamento" className="h-12 w-12 rounded-full bg-white/95 p-0.5 shadow-[0_0_20px_rgba(255,255,255,0.2)]" loading="lazy" />
+          <span className="font-display text-lg font-bold tracking-tight text-foreground sm:text-xl">
+            RB <span className="text-neon">Rastreamento Veicular</span>
           </span>
         </a>
         <ul className="hidden items-center gap-8 md:flex">
