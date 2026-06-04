@@ -6,19 +6,19 @@ const info = [
     icon: Eye,
     title: "Sensor de Fadiga",
     description: "Monitoramento por câmera inteligente que detecta sinais de cansaço, bocejos e distração do motorista em tempo real.",
-    image: "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?auto=format&fit=crop&q=80&w=800"
   },
   {
     icon: BarChart3,
     title: "Telemetria Avançada",
     description: "Dados completos sobre o comportamento do veículo: velocidade, consumo, temperatura do motor e diagnósticos remotos.",
-    image: "https://images.unsplash.com/photo-1551829142-d9b812ee3f23?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1504607798333-52a30db54a5d?auto=format&fit=crop&q=80&w=800"
   },
   {
     icon: Fingerprint,
     title: "Identificador de Motorista RFID",
     description: "Controle total sobre quem conduz o veículo através de cartões ou tags de identificação por radiofrequência.",
-    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
@@ -59,7 +59,7 @@ export function DetailSections() {
             </p>
             <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1504607798333-52a30db54a5d?auto=format&fit=crop&q=80&w=1200" 
                 alt="Gestão de Frota" 
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -77,7 +77,7 @@ export function DetailSections() {
             </p>
             <div className="aspect-video w-full overflow-hidden rounded-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1486006396113-adeba3f465a3?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1544725121-be3b5d0c19cb?auto=format&fit=crop&q=80&w=1200" 
                 alt="Instalação Profissional" 
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
