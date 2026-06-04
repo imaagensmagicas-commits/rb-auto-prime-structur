@@ -49,6 +49,7 @@ export function Footer() {
               <a href="https://wa.me/5531997554556" target="_blank" rel="noopener noreferrer" className="hover:text-neon transition-colors">
                 (31) 99755-4556
               </a>
+            </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-neon" />
               <span>(31) 98620-1766</span>
