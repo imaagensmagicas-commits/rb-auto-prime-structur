@@ -1,6 +1,6 @@
 import { SectionHeading } from "./SectionHeading";
 import { Cpu, Smartphone, Monitor, ShieldCheck } from "lucide-react";
-import rastreadorImg from "../../../src/assets/rastreador-4g.jpeg";
+import rastreadorImg from "../../assets/rastreador-4g.jpeg";
 
 const devices = [
   {
