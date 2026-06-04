@@ -17,8 +17,8 @@ const info = [
   {
     icon: Fingerprint,
     title: "Identificador de Motorista RFID",
-    description: "Controle total sobre quem conduz o veículo através de cartões ou tags de identificação por radiofrequência.",
-    image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80&w=800"
+    description: "Controle total sobre quem conduz os veículos através de sistema seguro de identificação por radiofrequência.",
+    image: "/rfid-identifier.jpeg"
   }
 ];
 
