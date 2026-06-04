@@ -12,21 +12,21 @@ const devices = [
   {
     title: "Módulo de Monitoramento",
     description: "Módulo avançado para gestão de frotas e telemetria veicular completa.",
-    image: "/telemetria-completa.jpg",
+    image: "https://images.unsplash.com/photo-1454165833767-027ffea9e77b?auto=format&fit=crop&q=80&w=800",
     icon: Monitor,
     specs: ["Telemetria Avançada", "Corte de Combustível", "Alertas de Ignição"]
   },
   {
     title: "Dispositivo OBD-II 4G",
     description: "Instalação rápida e simplificada via porta OBD, ideal para monitoramento imediato.",
-    image: "/telemetria-completa.jpg",
+    image: "https://images.unsplash.com/photo-1544210001-b05206187f50?auto=format&fit=crop&q=80&w=800",
     icon: Smartphone,
     specs: ["Instalação Plug & Play", "Diagnóstico Remoto", "Sinal 4G Estável"]
   },
   {
     title: "Equipamento Blindado",
     description: "Proteção extra contra água e poeira (IP67), ideal para máquinas e veículos pesados.",
-    image: "/telemetria-completa.jpg",
+    image: "https://images.unsplash.com/photo-1506318154146-239638c4c361?auto=format&fit=crop&q=80&w=800",
     icon: ShieldCheck,
     specs: ["Proteção IP67", "Resistente a Impactos", "Alta Durabilidade"]
   }
