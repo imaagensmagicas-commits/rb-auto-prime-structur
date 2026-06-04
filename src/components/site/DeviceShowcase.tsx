@@ -5,7 +5,7 @@ const devices = [
   {
     title: "Rastreador 4G Veicular",
     description: "Equipamento compacto e discreto com tecnologia 4G LTE para maior velocidade e precisão.",
-    image: "https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/rastreador-4g.jpeg",
     icon: Cpu,
     specs: ["Conexão 4G LTE", "Backup de Bateria", "Antifurto Integrado"]
   },
