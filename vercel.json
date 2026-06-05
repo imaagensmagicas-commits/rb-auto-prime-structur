@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "framework": "vite",
+  "public": true,
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "SYNC_TRIGGER": "2026-06-05T12:00:00Z"
-  }
+  ]
 }
 
