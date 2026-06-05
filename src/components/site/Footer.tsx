@@ -58,7 +58,7 @@ export function Footer() {
               <Phone className="h-4 w-4 text-neon" />
               <span>(31) 98318-1380</span>
             </li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> <a href="mailto:rbrastreamento@gmail.com" className="hover:text-neon transition-colors">rbrastreamento@gmail.com</a></li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-neon" /> <a href="mailto:rbrastreamentos@gmail.com" className="hover:text-neon transition-colors">rbrastreamentos@gmail.com</a></li>
             <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-neon" /> Savassi, Belo Horizonte - MG</li>
           </ul>
         </div>
